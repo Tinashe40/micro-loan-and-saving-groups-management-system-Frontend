@@ -3,7 +3,7 @@ import { Drawer, List, ListItemButton, ListItemIcon, ListItemText, IconButton, B
 import { Home, Dashboard, MonetizationOn, Group, PersonAdd, Menu } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
-function sSidebar({ open, toggleSidebar }) {
+function Sidebar({ open, toggleSidebar }) {
   const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm")); // Checks if the screen size is small
 
   return (
@@ -58,4 +58,4 @@ function sSidebar({ open, toggleSidebar }) {
   );
 }
 
-export default sSidebar;
+export default Sidebar;

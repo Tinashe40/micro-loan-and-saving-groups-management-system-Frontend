@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CssBaseline, Container, Box, Toolbar, Typography, Button, IconButton, useMediaQuery, createTheme, ThemeProvider } from "@mui/material";
 import { Menu } from "@mui/icons-material";
 import Header from "./components/Header";
-import Sidebar from "./components/sSidebar";
+import Sidebar from "./components/Sidebar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
